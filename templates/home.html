@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header,
+        main,
+        footer {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        a {
+            color: #0072c6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #0072c6;
+            color: #fff;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: normal;
+        }
+
+        main {
+            background-color: #f2f2f2;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            margin: 0 0 20px;
+            font-size: 24px;
+        }
+
+        p {
+            margin: 0 0 10px;
+        }
+
+    
+     
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pneumonia Website</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Pneumonia Website</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to our Pneumonia Website</h2>
+            <p>Here you can find information on pneumonia, including its symptoms, diagnosis, treatment, and prevention.
+                Our goal is to help educate people about this common lung infection and provide resources for those who
+                are affected by it.</p>
+        </section>
+        <section>
+            <h2>Symptoms of Pneumonia</h2>
+            <p>Common symptoms of pneumonia include coughing, chest pain, shortness of breath, fatigue, fever, and
+                chills. In some cases, people with pneumonia may also experience headaches, muscle aches, and sweating.
+            </p>
+        </section>
+        <section>
+            <h2>Diagnosis and Treatment of Pneumonia</h2>
+            <p>To detect pneumonia, a doctor may perform a physical exam, order chest X-rays or CT scans, and conduct
+                blood tests or sputum cultures to identify the specific microorganism causing the infection. In some
+                cases, a bronchoscopy may be necessary to examine the airways</p>
+            <div class="main">
+                <div class="title">
+                  <h3>Pneumonia Detection</h3>
+                </div>
+
+                <form action="/predict" method="post" enctype="multipart/form-data">
+                    <label for="image">Select an image to upload:</label>
+                    <input type="file" id="image" name="file">
+                    <input type="submit" value="Upload">
+                  </form>
+                  
+              
+                
